@@ -1,7 +1,7 @@
 import { StyledButton, StyledButton1, StyledDiv } from "./styles";
 import { AiOutlineLinkedin, AiOutlineMail } from "react-icons/ai";
 
-const Button = () => {
+const ButtonCard = () => {
   return (
     <StyledDiv>
       <StyledButton>
@@ -16,4 +16,4 @@ const Button = () => {
   );
 };
 
-export default Button;
+export default ButtonCard;

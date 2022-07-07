@@ -2,7 +2,7 @@ import "./App.css";
 import ImageCard from "./components/ImageCard";
 import Header from "./components/Header";
 import { StyledBody, StyledDiv } from "./components/StyledBody/styles";
-import Button from "./components/Button";
+import ButtonCard from "./components/ButtonCard";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 
@@ -12,7 +12,7 @@ function App() {
       <StyledDiv>
         <ImageCard />
         <Header />
-        <Button />
+        <ButtonCard />
         <MainContent />
         <Footer />
       </StyledDiv>
