@@ -4,7 +4,7 @@ import image from "../../images/jennie.jpg";
 const ImageCard = () => {
   return (
     <StyledDiv>
-      <StyledImg src={image} alt="Jennie"></StyledImg>
+      <StyledImg src={image} alt="Jennie" />
     </StyledDiv>
   );
 };
